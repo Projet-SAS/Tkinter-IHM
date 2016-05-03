@@ -26,7 +26,7 @@ class Boutons :
 		self.Button_ON.grid(row=0, column=0, rowspan=2, sticky=N+W, padx=10, pady=10)
 
 		self.blanco = Label(root, text="")
-		self.blanco.grid(row=0,column=1, padx=50)
+		self.blanco.grid(row=0,column=1, padx=40)
 		self.tempe1 = Label(root, text="Temperature ", font=police, anchor=E)
 		self.tempe1.grid(row=0, column=2, padx=20, sticky=S+E)
 		self.tempe2 = Label(root, text="actuelle :", font=police, anchor=E)
@@ -55,8 +55,7 @@ class Boutons :
 
 
 root = Tk()
-root.attributes("-fullscreen", 1)
-#root.geometry("800x480+0+0")
+root.geometry("800x480+0+0")
 root.resizable(width=False,height=False)
 police=tkFont.Font(root, size=16, family='Courier')
 policeBouton=tkFont.Font(root, size=14, family='Courier')
