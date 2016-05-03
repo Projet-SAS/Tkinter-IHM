@@ -56,7 +56,7 @@ class Boutons :
 
 root = Tk()
 root.grid_bbox(0,0,1,1)
-root.geometry("800x480+300+0")
+root.geometry("800x480+0+0")
 root.resizable(width=False,height=False)
 police=tkFont.Font(root, size=16, family='Courier')
 policeBouton=tkFont.Font(root, size=14, family='Courier')
